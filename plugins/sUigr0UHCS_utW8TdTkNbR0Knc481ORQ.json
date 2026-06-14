@@ -1192,31 +1192,31 @@
                 },
                 {
                     "source": "setName(\"Files to import\")",
-                    "target": "setName(\"要匯入的檔案\")"
+                    "target": "setName(\"要导入的文件\")"
                 },
                 {
                     "source": "setButtonText(\"Choose folders\")",
-                    "target": "setButtonText(\"選擇資料夾\")"
+                    "target": "setButtonText(\"选择文件夹\")"
                 },
                 {
                     "source": "setDesc(\"Reading folders...\")",
-                    "target": "setDesc(\"正在讀取資料夾...\")"
+                    "target": "setDesc(\"正在读取文件夹...\")"
                 },
                 {
                     "source": "setName(\"Output folder\")",
-                    "target": "setName(\"輸出資料夾\")"
+                    "target": "setName(\"输出文件夹\")"
                 },
                 {
                     "source": "setName(\"File prefix format\")",
-                    "target": "setName(\"檔案前綴格式\")"
+                    "target": "setName(\"文件前缀格式\")"
                 },
                 {
                     "source": "setDesc(\"Format for the creation date prefix in filenames. Use YYYY, MM, DD for year, month, day. Leave blank for no prefix.\")",
-                    "target": "setDesc(\"檔名中建立日期前綴的格式。使用 YYYY、MM、DD 表示年、月、日。留空則不加入前綴。\")"
+                    "target": "setDesc(\"文件名中添加日期前綴的格式。使用 YYYY、MM、DD 表示年、月、日。留空則不加入前綴。\")"
                 },
                 {
                     "source": "setName(\"Import recently deleted notes\")",
-                    "target": "setName(\"匯入最近刪除的筆記\")"
+                    "target": "setName(\"导入最近删除的笔记\")"
                 },
                 {
                     "source": "setName(\"Omit first line\")",
@@ -1224,111 +1224,111 @@
                 },
                 {
                     "source": "setDesc(\"Don't include the first line in the text, since Apple Notes uses it as the title. It will still be used as the note name.\")",
-                    "target": "setDesc(\"不要將第一行包含在文字中，因為 Apple Notes 會將它用作標題，但它仍會用作筆記名稱。\")"
+                    "target": "setDesc(\"请不要把笔记的第一行包含在正文内容中，因为苹果备忘录会把第一行当作这篇笔记的标题，但它（导入工具）依然会把它作为文件名。\")"
                 },
                 {
                     "source": "setName(\"Include handwriting text\")",
-                    "target": "setName(\"包含手寫文字\")"
+                    "target": "setName(\"包含手写文字\")"
                 },
                 {
                     "source": "setDesc(\"When Apple Notes has detected handwriting in drawings, include it as text before the drawing.\")",
-                    "target": "setDesc(\"當 Apple Notes 在繪圖中偵測到手寫內容時，將它作為文字放在繪圖之前。\")"
+                    "target": "setDesc(\"当苹果备忘录在画布（绘图区域）中检测到手写内容时，导入工具会将其转换为文字，并放置在对应绘图的上方。\")"
                 },
                 {
                     "source": "setName(\"Handle duplicate files\")",
-                    "target": "setName(\"處理重複檔案\")"
+                    "target": "setName(\"处理重复文件\")"
                 },
                 {
                     "source": "setDesc(\"How to handle notes that already exist in the vault.\")",
-                    "target": "setDesc(\"如何處理儲存庫中已存在的筆記。\")"
+                    "target": "setDesc(\"如何处理库中已存在的笔记。\")"
                 },
                 {
                     "source": "Notice(\"Data import failed. Ensure you have selected the correct Apple Notes data folder.\")",
-                    "target": "Notice(\"資料匯入失敗。請確認你已選擇正確的 Apple Notes 資料夾。\")"
+                    "target": "Notice(\"数据导入失败。请确保您选择了正确的 Apple Notes（苹果备忘录）数据文件夹。\")"
                 },
                 {
                     "source": "Notice(\"Please select a location to export to.\")",
-                    "target": "Notice(\"請選擇匯出的位置。\")"
+                    "target": "Notice(\"请选择要导出到的文件夹。\")"
                 },
                 {
                     "source": "setName(\"Journal metadata\")",
-                    "target": "setName(\"日誌中繼資料\")"
+                    "target": "setName(\"日志元数据\")"
                 },
                 {
                     "source": "setName(\"Add metadata as frontmatter\")",
-                    "target": "setName(\"將中繼資料加入為 frontmatter\")"
+                    "target": "setName(\"将元数据添加为前置元数据（frontmatter）\")"
                 },
                 {
                     "source": "setDesc(\"Capture state-of-mind, contact, and similar tokens in YAML when available.\")",
-                    "target": "setDesc(\"可用時，將心情狀態、聯絡方式與類似標記寫入 YAML。\")"
+                    "target": "setDesc(\"当可用时，将心情状态、联系人及类似的标签捕获并写入 YAML 中。\")"
                 },
                 {
                     "source": "setDesc(\"How to handle entries that already exist in the vault.\")",
-                    "target": "setDesc(\"如何處理儲存庫中已存在的項目。\")"
+                    "target": "setDesc(\"如何处理库中已存在的条目。\")"
                 },
                 {
                     "source": "Notice(\"Please pick at least one file to import.\")",
-                    "target": "Notice(\"請至少選擇一個要匯入的檔案。\")"
+                    "target": "Notice(\"请至少选择一个文件进行导入。\")"
                 },
                 {
                     "source": "setName(\"Flatten nested tags\")",
-                    "target": "setName(\"攤平巢狀標籤\")"
+                    "target": "setName(\"展平嵌套标签\")"
                 },
                 {
                     "source": "setDesc(\"When enabled, tags will be split on slashes (/) during import.\")",
-                    "target": "setDesc(\"啟用後，匯入時會用斜線（/）分割標籤。\")"
+                    "target": "setDesc(\"启用后，导入时标签将按斜杠（/）进行拆分。\")"
                 },
                 {
                     "source": "setName(\"Store note identifiers in front matter\")",
-                    "target": "setName(\"將筆記識別碼儲存在 frontmatter 中\")"
+                    "target": "setName(\"将笔记标识符存储在前置元数据（front matter）中\")"
                 },
                 {
                     "source": "setDesc(\"Links will be automatically updated. Enable this if the note identifier is used outside of linking between notes.\")",
-                    "target": "setDesc(\"連結將自動更新。若筆記識別碼也用於筆記之間連結以外的地方，請啟用此功能。\")"
+                    "target": "setDesc(\"链接将被自动更新。如果笔记标识符被用于笔记之间的链接之外的场景，请启用此选项。\")"
                 },
                 {
                     "source": "setName(\"Note title\")",
-                    "target": "setName(\"筆記標題\")"
+                    "target": "setName(\"笔记标题\")"
                 },
                 {
                     "source": "setName(\"Note location\")",
-                    "target": "setName(\"筆記位置\")"
+                    "target": "setName(\"笔记位置\")"
                 },
                 {
                     "source": "setText(\"Property name\")",
-                    "target": "setText(\"屬性名稱\")"
+                    "target": "setText(\"属性名称\")"
                 },
                 {
                     "source": "setText(\"Property value\")",
-                    "target": "setText(\"屬性值\")"
+                    "target": "setText(\"属性值\")"
                 },
                 {
                     "source": "setName(\"Note content\")",
-                    "target": "setName(\"筆記內容\")"
+                    "target": "setName(\"笔记內容\")"
                 },
                 {
                     "source": "setName(\"CSV has header row\")",
-                    "target": "setName(\"CSV 包含標頭列\")"
+                    "target": "setName(\"CSV 包含表头行\")"
                 },
                 {
                     "source": "setDesc(\"If enabled, the first row of the CSV file will be treated as column headers.\")",
-                    "target": "setDesc(\"啟用後，CSV 檔案的第一列會視為欄位標題。\")"
+                    "target": "setDesc(\"如果启用，CSV 文件的第一行将被视为列标题。\")"
                 },
                 {
                     "source": "Notice(\"Please pick at least one CSV file to import.\")",
-                    "target": "Notice(\"請至少選擇一個要匯入的 CSV 檔案。\")"
+                    "target": "Notice(\"请至少选择一个 CSV 文件进行导入。\")"
                 },
                 {
                     "source": "Notice(\"CSV files must be imported one at a time.\")",
-                    "target": "Notice(\"CSV 檔案必須一次匯入一個。\")"
+                    "target": "Notice(\"CSV 文件必须逐个导入。\")"
                 },
                 {
                     "source": "Notice(\"No data found in CSV file(s).\")",
-                    "target": "Notice(\"CSV 檔案中找不到任何資料。\")"
+                    "target": "Notice(\"在 CSV 文件中未找到数据。\")"
                 },
                 {
                     "source": "Notice(\"Configuration is missing.\")",
-                    "target": "Notice(\"缺少設定檔。\")"
+                    "target": "Notice(\"缺少配置。\")"
                 },
                 {
                     "source": "error(\"Failed to create Base file:\",n)}}async getTargetFolder(t,n){if(!n||!n.trim())return t;let i=this.sanitizeFilePath(n),a=t.path+\"/\"+i;return await this.createFolders(a)}};var aa=require(\"obsidian\")",
@@ -1408,31 +1408,31 @@
                 },
                 {
                     "source": "setDesc(\"Set 0 to disable.\")",
-                    "target": "setDesc(\"設為 0 即可停用。\")"
+                    "target": "setDesc(\"设置 0 即可停用。\")"
                 },
                 {
                     "source": "setName(\"Minimum image size (px)\")",
-                    "target": "setName(\"最小圖片尺寸（px）\")"
+                    "target": "setName(\"最小图片尺寸（px）\")"
                 },
                 {
                     "source": "setName(\"Import archived notes\")",
-                    "target": "setName(\"匯入已封存的筆記\")"
+                    "target": "setName(\"导入已归档的笔记\")"
                 },
                 {
                     "source": "setDesc(\"If imported, files archived in Google Keep will be tagged as archived.\")",
-                    "target": "setDesc(\"若匯入，Google Keep 中已封存的檔案會標記為已封存。\")"
+                    "target": "setDesc(\"如果导入，在 Google Keep 中被归档的文件将被打上‘已归档’标签。\")"
                 },
                 {
                     "source": "setName(\"Import deleted notes\")",
-                    "target": "setName(\"匯入已刪除的筆記\")"
+                    "target": "setName(\"导入已删除的笔记\")"
                 },
                 {
                     "source": "setDesc(\"If imported, files deleted in Google Keep will be tagged as deleted. Deleted notes will only exist in your Google export if deleted recently.\")",
-                    "target": "setDesc(\"若匯入，Google Keep 中已刪除的檔案會標記為已刪除。刪除的筆記只有在最近刪除時，才會出現在你的 Google 匯出檔中。\")"
+                    "target": "setDesc(\"如果导入，在 Google Keep 中被删除的文件将被打上‘已删除’标签。此外，只有近期删除的笔记才会包含在你的 Google 导出文件中。\")"
                 },
                 {
                     "source": "Notice(\"Please select a location to import your files to.\")",
-                    "target": "Notice(\"請選擇檔案要匯入的位置。\")"
+                    "target": "Notice(\"请选择一个位置来导入您的文件。\")"
                 },
                 {
                     "source": "appendText(\"[!important] \")",
@@ -1440,23 +1440,23 @@
                 },
                 {
                     "source": "setName(\"Save parent pages in subfolders\")",
-                    "target": "setName(\"將上層頁面儲存在子資料夾中\")"
+                    "target": "setName(\"将父级页面保存在子文件夹中\")"
                 },
                 {
                     "source": "setDesc(\"Places the parent database pages in the same folder as the nested content.\")",
-                    "target": "setDesc(\"將上層資料庫頁面放在與巢狀內容相同的資料夾中。\")"
+                    "target": "setDesc(\"将父级数据库页面与嵌套内容放置在同一个文件夹中。\")"
                 },
                 {
                     "source": "setName(\"Single line breaks\")",
-                    "target": "setName(\"單一換行\")"
+                    "target": "setName(\"单个换行符\")"
                 },
                 {
                     "source": "setDesc(\"Separate Notion blocks with only one line break (default is 2).\")",
-                    "target": "setDesc(\"只用一個換行分隔 Notion 區塊（預設為 2 個）。\")"
+                    "target": "setDesc(\"仅使用单个换行符来分隔 Notion 块（默认值为 2 个换行符）。\")"
                 },
                 {
                     "source": "Notice(\"Notion Markdown export detected. Please export Notion data to HTML instead.\")",
-                    "target": "Notice(\"偵測到 Notion Markdown 匯出。請改為將 Notion 資料匯出為 HTML。\")"
+                    "target": "Notice(\"检测到 Notion 的 Markdown 导出文件。请改为将 Notion 数据导出为 HTML 格式。\")"
                 },
                 {
                     "source": "error(`Failed to download attachment \"${l}\": ${c.status}`)",
@@ -1548,19 +1548,19 @@
                 },
                 {
                     "source": "setName(\"Notion API token\")",
-                    "target": "setName(\"Notion API 權杖\")"
+                    "target": "setName(\"Notion API 令牌\")"
                 },
                 {
                     "source": "setName(\"Select pages to import\")",
-                    "target": "setName(\"選擇要匯入的頁面\")"
+                    "target": "setName(\"选择要导入的页面\")"
                 },
                 {
                     "source": "setDesc('Click \"Load\" to see data you can import. If a page or database is missing, check that your Notion integration has access to it.')",
-                    "target": "setDesc('點擊 \"載入\" 查看可匯入的資料。如果頁面或資料庫遺漏，請確認你的 Notion 整合有權限存取它。')"
+                    "target": "setDesc('点击‘加载（Load）’以查看您可以导入的数据。如果某个页面或数据库缺失，请检查您的 Notion 集成（Integration）是否拥有访问该内容的权限。')"
                 },
                 {
                     "source": "setButtonText(\"Select all\")",
-                    "target": "setButtonText(\"全選\")"
+                    "target": "setButtonText(\"全选\")"
                 },
                 {
                     "source": "error(\"[Notion Importer] Error in loadPageTree:\",l),new ce.Notice(`Failed to load pages: ${Ut(l)}`)}}),s.buttonEl&&(s.buttonEl.addClass(\"notion-load-button\")",
@@ -1568,59 +1568,59 @@
                 },
                 {
                     "source": "setText('Click \"Load\" to load your Notion pages and databases.')",
-                    "target": "setText('點擊 \"載入\" 以載入你的 Notion 頁面和資料庫。')"
+                    "target": "setText('点击‘加载（Load）’以读取您的 Notion 页面和数据库。')"
                 },
                 {
                     "source": "setDesc(\"Adds a notion-id property to pages so that future imports can skip pages that have already been imported.\")",
-                    "target": "setDesc(\"為頁面新增 notion-id 屬性，以便未來匯入時跳過已匯入的頁面。\")"
+                    "target": "setDesc(\"为页面添加一个 notion-id 属性，以便在未来的导入中跳过已经导入过的页面。\")"
                 },
                 {
                     "source": "setName(\"Convert formulas\")",
-                    "target": "setName(\"轉換公式\")"
+                    "target": "setName(\"转换公式\")"
                 },
                 {
                     "source": "setName(\"Download external attachments\")",
-                    "target": "setName(\"下載外部附件\")"
+                    "target": "setName(\"下载外部附件\")"
                 },
                 {
                     "source": "setDesc(\"Separate Notion blocks with only one line break instead of two. Some blocks (lists, toggles, tables) will still use double line breaks when required for proper Markdown syntax.\")",
-                    "target": "setDesc(\"用一個換行而不是兩個換行分隔 Notion 區塊。部分區塊（清單、折疊、表格）為了維持正確的 Markdown 語法，仍會在需要時使用雙換行。\")"
+                    "target": "setDesc(\"仅使用单个换行符来分隔 Notion 块，而不是两个。但为了保证 Markdown 语法的正确性，某些特定的块（如列表、折叠块、表格等）在必要时仍会使用双换行符。\")"
                 },
                 {
                     "source": "setName(\"Cover property name\")",
-                    "target": "setName(\"封面屬性名稱\")"
+                    "target": "setName(\"封面属性名称\")"
                 },
                 {
                     "source": "setName(\"Database property name\")",
-                    "target": "setName(\"資料庫屬性名稱\")"
+                    "target": "setName(\"数据库属性名称\")"
                 },
                 {
                     "source": "setDesc('Property name in page frontmatter to link pages to their database .base file (default: \"base\")')",
-                    "target": "setDesc('頁面 frontmatter 中用來將頁面連結到資料庫 .base 檔案的屬性名稱（預設值：\"base\"）')"
+                    "target": "setDesc('页面前置元数据（frontmatter）中用于将页面链接到其数据库 .base 文件的属性名称（默认为 base）')"
                 },
                 {
                     "source": "appendText(\"To get an API token create an integration in Notion and give it access to pages in your workspace. \")",
-                    "target": "appendText(\"要取得 API 權杖，請在 Notion 中建立整合，並授予它存取工作區頁面的權限。\")"
+                    "target": "appendText(\"要获取 API 令牌（Token），请在 Notion 中创建一个集成（Integration），并授予其访问您工作区中特定页面的权限。\")"
                 },
                 {
                     "source": "appendText(\"By default Notion formulas are converted to Obsidian syntax. If any Notion syntax is not supported the static values will be saved instead. Alternatively you can import all formulas as static values.\")",
-                    "target": "appendText(\"Notion 公式預設會轉換為 Obsidian 語法。如果有不支援的 Notion 語法，會改為儲存靜態值。你也可以選擇將所有公式匯入為靜態值。\")"
+                    "target": "appendText(\"默认情况下，Notion 的公式会被转换为 Obsidian 语法。如果某些 Notion 语法不受支持，则会保存其静态值作为替代。或者，你也可以选择将所有公式直接作为静态值导入。\")"
                 },
                 {
                     "source": "appendText(\"Download external attachments (external URLs) to local files. Notion-hosted files are always downloaded. \")",
-                    "target": "appendText(\"將外部附件（外部 URL）下載為本機檔案。Notion 託管的檔案一律會下載。\")"
+                    "target": "appendText(\"将外部附件（外部 URL）下载到本地。Notion 托管的文件则始终会被下载。\")"
                 },
                 {
                     "source": "appendText(\"Attachments will be saved according to your vault's attachment folder settings.\")",
-                    "target": "appendText(\"附件會依照你儲存庫的附件資料夾設定儲存。\")"
+                    "target": "appendText(\"附件将根据你仓库（Vault）的附件文件夹设置进行保存。\")"
                 },
                 {
                     "source": "appendText(\"Property name for page cover image in YAML frontmatter. \")",
-                    "target": "appendText(\"YAML frontmatter 中的頁面封面圖片屬性名稱。\")"
+                    "target": "appendText(\"在 YAML 前置元数据（frontmatter）中，用于指定页面封面图片的属性名称。\")"
                 },
                 {
                     "source": "appendText(`Leave as \"cover\" if you don't have conflicts with existing properties.`)",
-                    "target": "appendText(`如果不會和現有屬性衝突，請保留為 \"cover\"。`)"
+                    "target": "appendText(`现有的属性（字段）没有发生冲突 \"cover\"。`)"
                 },
                 {
                     "source": "error(\"Request failed:\",a),a}}})}async loadPageTree(){var t;if(!this.notionToken){new ce.Notice(\"Please enter your Notion API token first.\")",
@@ -1628,7 +1628,7 @@
                 },
                 {
                     "source": "Notice(`Found ${l.length} pages and databases.`)",
-                    "target": "Notice(`找到 ${l.length} 個頁面和資料庫。`)"
+                    "target": "Notice(`找到 ${l.length} 页面与数据库。`)"
                 },
                 {
                     "source": "error(\"[Notion Importer] Failed to load pages:\",n),new ce.Notice(`Failed to load pages: ${(t=Ut(n))!=null?t:\"Unknown error\"}`)}finally{this.listPagesButton&&(this.listPagesButton.setDisabled(!1),this.listPagesButton.setButtonText(\"Refresh\")",
@@ -1636,19 +1636,19 @@
                 },
                 {
                     "source": "error(\"[Notion Importer] Container not found!\")",
-                    "target": "error(\"[Notion Importer] Container not found!\")"
+                    "target": "error(\"[Notion Importer] 找不到容器!\")"
                 },
                 {
                     "source": "Notice(\"Please list importable pages first.\")",
-                    "target": "Notice(\"請先列出可匯入的頁面。\")"
+                    "target": "Notice(\"请先列出可导入的页面。\")"
                 },
                 {
                     "source": "Notice(\"Please enter your Notion API token.\")",
-                    "target": "Notice(\"請輸入你的 Notion API 權杖。\")"
+                    "target": "Notice(\"请输入你的 Notion API 令牌。\")"
                 },
                 {
                     "source": "Notice(\"Please select at least one page or database to import.\")",
-                    "target": "Notice(\"請至少選擇一個要匯入的頁面或資料庫。\")"
+                    "target": "Notice(\"请至少选择一个页面或数据库进行导入。\")"
                 },
                 {
                     "source": "error(`Failed to import page ${i}:`,l);let c=`Page ${i.substring(0,8)}...`,u=l instanceof Error?l.message:String(l);console.error(`Error details - Page ID: ${i}, Error: ${u}`)",
@@ -1676,31 +1676,31 @@
                 },
                 {
                     "source": "setName(\"Import incompatible attachments\")",
-                    "target": "setName(\"匯入不相容的附件\")"
+                    "target": "setName(\"导入不兼容的附件\")"
                 },
                 {
                     "source": "setName(\"Skip previously imported\")",
-                    "target": "setName(\"跳過已匯入的項目\")"
+                    "target": "setName(\"跳过之前已导入的（笔记）\")"
                 },
                 {
                     "source": "setDesc(\"If enabled, notes imported previously by this plugin will be skipped.\")",
-                    "target": "setDesc(\"啟用後，會跳過先前由此插件匯入的筆記。\")"
+                    "target": "setDesc(\"启用此选项，之前已经通过该插件导入过的笔记将被跳过。\")"
                 },
                 {
                     "source": "setName(\"Sign in with your Microsoft account\")",
-                    "target": "setName(\"使用你的 Microsoft 帳戶登入\")"
+                    "target": "setName(\"使用你的 Microsoft 账户登录\")"
                 },
                 {
                     "source": "setDesc(\"You need to sign in to import your OneNote data.\")",
-                    "target": "setDesc(\"你需要登入才能匯入 OneNote 資料。\")"
+                    "target": "setDesc(\"你需要登录才能导入入 OneNote 资料。\")"
                 },
                 {
                     "source": "setButtonText(\"Sign in\")",
-                    "target": "setButtonText(\"登入\")"
+                    "target": "setButtonText(\"登录\")"
                 },
                 {
                     "source": "setDesc(\"If checked, you will be automatically logged in for subsequent imports.\")",
-                    "target": "setDesc(\"勾選後，後續匯入時會自動登入。\")"
+                    "target": "setDesc(\"勾选此项，在后续进行导入操作时，系统将自动为您登录。\")"
                 },
                 {
                     "source": "setButtonText(\"Switch user\")",
@@ -1708,15 +1708,15 @@
                 },
                 {
                     "source": "setDesc(`Signed in as ${t.displayName} (${t.mail}). If that's not the correct account, sign in again.`)",
-                    "target": "setDesc(`已以 ${t.displayName} (${t.mail}) 登入。如果這不是正確的帳戶，請重新登入。`)"
+                    "target": "setDesc(`已以 ${t.displayName} (${t.mail}) 登录。如果這不是正确的账戶，请重新登录。`)"
                 },
                 {
                     "source": "setDesc(`Last edited on: ${Ye.moment.utc(s.lastModifiedDateTime).format(\"Do MMMM YYYY\")}. Contains ${(o=s.sections)==null?void 0:o.length} sections.`)",
-                    "target": "setDesc(`上次編輯時間：${Ye.moment.utc(s.lastModifiedDateTime).format(\"Do MMMM YYYY\")}。包含 ${(o=s.sections)==null?void 0:o.length} 個區段。`)"
+                    "target": "setDesc(`上次编辑时间：${Ye.moment.utc(s.lastModifiedDateTime).format(\"Do MMMM YYYY\")}。包含 ${(o=s.sections)==null?void 0:o.length} 個區段。`)"
                 },
                 {
                     "source": "Notice(\"Please sign in to your Microsoft Account.\")",
-                    "target": "Notice(\"請登入你的 Microsoft 帳戶。\")"
+                    "target": "Notice(\"请登录你的 Microsoft 账户。\")"
                 },
                 {
                     "source": "error(\"Failed to convert InkML to SVG in page:\",i.title,F)}let f=this.convertTags(qt(s.html)),m=await this.getAllAttachments(t,f.replace(P0,\"<br />\")",
@@ -1748,15 +1748,15 @@
                 },
                 {
                     "source": "setName(\"Convert TODO lists to checkboxes\")",
-                    "target": "setName(\"將待辦事項清單轉換為核取方塊\")"
+                    "target": "setName(\"将待办事项清单转换为复选框\")"
                 },
                 {
                     "source": "setName(\"Keep title in Markdown\")",
-                    "target": "setName(\"在 Markdown 中保留標題\")"
+                    "target": "setName(\"在 Markdown 中保留标题\")"
                 },
                 {
                     "source": "setDesc('Choose whether to keep the note title in the Markdown content. \"Automatic\" keeps titles only when special characters are lost in filename conversion.')",
-                    "target": "setDesc('選擇是否在 Markdown 內容中保留筆記標題。\"自動\" 只會在檔名轉換導致特殊字元遺失時保留標題。')"
+                    "target": "setDesc('选择是否在 Markdown 內容中保留笔记标题。\"自动\" 只有在文件名转换导致特殊字符丢失时，才保留原标题。')"
                 },
                 {
                     "source": "log(\"Current progress:\",(100*e/t).toFixed(1)+\"%\")",
@@ -1764,19 +1764,19 @@
                 },
                 {
                     "source": "Notice(\"Unexpected auth event. Please restart the auth process.\")",
-                    "target": "Notice(\"驗證過程中發生意外事件，請重新啟動驗證流程。\")"
+                    "target": "Notice(\"发生意外的授权事件。请重新启动授权流程。\")"
                 },
                 {
                     "source": "setText(\"Import data into Obsidian\")",
-                    "target": "setText(\"將資料匯入 Obsidian\")"
+                    "target": "setText(\"將资料导入入 Obsidian\")"
                 },
                 {
                     "source": "setName(\"File format\")",
-                    "target": "setName(\"檔案格式\")"
+                    "target": "setName(\"文件格式\")"
                 },
                 {
                     "source": "description:\"A simple and easy to use client for the Notion API\"",
-                    "target": "description:\"簡單易用的 Notion API 用戶端\""
+                    "target": "description:\"简单易用的 Notion API 用戶端\""
                 },
                 {
                     "source": "name: \"+_e+\"",
@@ -1784,47 +1784,47 @@
                 },
                 {
                     "source": "text:`These ${c} files will be imported: `",
-                    "target": "text:`將匯入這 ${c} 個檔案：`"
+                    "target": "text:`將导入这 ${c} 个檔案：`"
                 },
                 {
                     "source": "text:\"Due to platform limitations, Apple Notes cannot be exported from this device. Open your vault on a Mac to export from Apple Notes.\"",
-                    "target": "text:\"由於平台限制，無法從此裝置匯出 Apple Notes。請在 Mac 上開啟你的儲存庫來匯出 Apple Notes。\""
+                    "target": "text:\"由于平台限制，无法从当前设备导出 Apple Notes（苹果备忘录）。请打开您的 Mac 电脑上的备忘录应用进行导出。\""
                 },
                 {
                     "source": "text:`Configure how your data should be imported. Use ${this.placeholderSyntax} syntax to reference field values.`",
-                    "target": "text:`設定資料的匯入方式。使用 ${this.placeholderSyntax} 語法引用欄位值。`"
+                    "target": "text:`设置资料的导入方式。使用 ${this.placeholderSyntax} 语法引用字段值。`"
                 },
                 {
                     "source": "name:\"Table View\"",
-                    "target": "name:\"表格檢視\""
+                    "target": "name:\"表格视图\""
                 },
                 {
                     "source": "text:\"Get API token.\"",
-                    "target": "text:\"取得 API 權杖。\""
+                    "target": "text:\"取得 API 权限。\""
                 },
                 {
                     "source": "text:\"No pages or databases found. Make sure your integration has access to the pages you want to import.\"",
-                    "target": "text:\"找不到任何頁面或資料庫。請確認你的整合工具有權存取要匯入的頁面。\""
+                    "target": "text:\"找不到任何页面或数据库。请确认你的导入工具有权访问你想要导入的页面。\""
                 },
                 {
                     "source": "text:\"Loading notebooks...\"",
-                    "target": "text:\"正在載入筆記本...\""
+                    "target": "text:\"正在载入笔记本...\""
                 },
                 {
                     "source": "text:\"An error occurred while trying to sign you in.\"",
-                    "target": "text:\"嘗試登入時發生錯誤。\""
+                    "target": "text:\"尝试登录时发生错误。\""
                 },
                 {
                     "source": "text:\"Click here to show error details\"",
-                    "target": "text:\"點擊這裡顯示錯誤詳細資訊\""
+                    "target": "text:\"点击这里显示错误详细信息\""
                 },
                 {
                     "source": "text:\"Choose data to import\"",
-                    "target": "text:\"選擇要匯入的資料\""
+                    "target": "text:\"选择要导入的数据\""
                 },
                 {
                     "source": "text:\"Microsoft OneNote has limited how fast notes can be imported. Please try again in 1 hour to continue importing.\"",
-                    "target": "text:\"Microsoft OneNote 限制了筆記匯入速度。請在 1 小時後再試，以繼續匯入。\""
+                    "target": "text:\"Microsoft OneNote 限制了笔记导入入速度。请在 1 小時后再试，以便继续导入。\""
                 },
                 {
                     "source": "page:\",i.title,F)}let f=this.convertTags(qt(s.html)),m=await this.getAllAttachments(t,f.replace(P0,\"",
@@ -1832,7 +1832,7 @@
                 },
                 {
                     "source": "text:\"Due to platform limitations, only textpack and zip files can be imported from this device. Open your vault on a Mac to import textbundle files.\"",
-                    "target": "text:\"由於平台限制，此裝置只能匯入 textpack 和 zip 檔案。請在 Mac 上開啟你的儲存庫來匯入 textbundle 檔案。\""
+                    "target": "text:\"由于当前平台的限制，这个设备只允许导入textpack 和zip 这两种打包格式的文件。如果你想导入之前提到的 .textbundle 文件，请在你的 Mac 电脑上打开来进行操作。\""
                 },
                 {
                     "source": "text:`\n`",
@@ -1840,11 +1840,11 @@
                 },
                 {
                     "source": "text:\"Skipped: \"",
-                    "target": "text:\"已跳過：\""
+                    "target": "text:\"已跳过：\""
                 },
                 {
                     "source": "text:\"Failed: \"",
-                    "target": "text:\"失敗：\""
+                    "target": "text:\"失败：\""
                 },
                 {
                     "source": "name:\"Apple Notes\"",
@@ -1860,7 +1860,7 @@
                 },
                 {
                     "source": "name:\"HTML files\"",
-                    "target": "name:\"HTML 檔案\""
+                    "target": "name:\"HTML 文件\""
                 },
                 {
                     "source": "name:\"Microsoft OneNote\"",
@@ -1876,23 +1876,23 @@
                 },
                 {
                     "source": "name:\"Textbundle files\"",
-                    "target": "name:\"Textbundle 檔案\""
+                    "target": "name:\"Textbundle 文件\""
                 },
                 {
                     "source": "name:\"Open importer\"",
-                    "target": "name:\"開啟匯入工具\""
+                    "target": "name:\"开启导入工具\""
                 },
                 {
                     "source": "text:\"The format to be imported.\"",
-                    "target": "text:\"要匯入的格式。\""
+                    "target": "text:\"要导入的格式。\""
                 },
                 {
                     "source": "text:`Learn more about importing from ${a.name}.`",
-                    "target": "text:`深入了解如何從 ${a.name} 匯入。`"
+                    "target": "text:`深入了解如何从 ${a.name} 导入。`"
                 },
                 {
                     "source": "text:\"Import more\"",
-                    "target": "text:\"匯入更多\""
+                    "target": "text:\"导入更多\""
                 }
             ]
         }
