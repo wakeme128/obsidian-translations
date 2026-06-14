@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "sUigr0UHCS_utW8TdTkNbR0Knc481ORQ",
+        "plugin": "obsidian-importer",
+        "language": "zh-cn",
+        "version": "1.8.12",
+        "supported_versions": "1.8.12",
+        "title": "[zh-cn] Importer",
+        "description": "Importer",
+        "hash": "1b1efb501b1efb501b1efb501b1efb50",
+        "created_at": "2026-06-14T10:56:25.409Z",
+        "updated_at": "2026-06-14T10:56:25.409Z",
+        "type": "plugin"
+    }
+]
